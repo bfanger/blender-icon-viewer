@@ -6,7 +6,7 @@
     "dev": "vite --host",
     "build": "vite build",
     "serve": "node server.js",
-    "icons": "node scripts/gen-manifest.js && node scripts/copyAll.ts && node scripts/convertAll.ts"
+    "icons": "node scripts/gen-manifest.js && node scripts/copyAll.ts && node scripts/convertAll.ts && node scripts/optimizeSvg.ts"
   },
   "type": "module",
   "devDependencies": {

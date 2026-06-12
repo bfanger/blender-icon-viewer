@@ -10,11 +10,12 @@
   type Props = { icon: Icon };
 
   let { icon }: Props = $props();
+  let hover = $state(false);
   let copied = $state(false);
   let timeout: ReturnType<typeof setTimeout>;
 
   async function handleClick() {
-    const res = await fetch(`/icons/${icon.name}.svg`);
+    const res = await fetch(`/svgo/${icon.name}.svg`);
     if (!res.ok) {
       throw new Error("HTTP " + res.status);
     }
@@ -28,18 +29,35 @@
   }
 </script>
 
-<button class="icon-cell" data-name={icon.name} onclick={handleClick}>
+<button
+  class="icon-cell"
+  data-name={icon.name}
+  onclick={handleClick}
+  onmouseenter={() => {
+    hover = true;
+  }}
+  onmouseleave={() => {
+    hover = false;
+  }}
+>
   <div class="image">
     <img
       class="svg"
-      src="/icons/{icon.name}.svg"
+      src="/svgo/{icon.name}.svg"
       loading="lazy"
       alt={icon.name}
     />
     {#if icon.name.includes(".")}
       <img
-        class="png"
+        class="original"
         src="/icons/{icon.name}.png"
+        loading="lazy"
+        alt={icon.name}
+      />
+    {:else}
+      <img
+        class="original"
+        src="/icons/{icon.name}.svg"
         loading="lazy"
         alt={icon.name}
       />
@@ -82,18 +100,18 @@
     width: 48px;
     height: 48px;
   }
-  .icon-cell:hover .svg:has(+ .png) {
+  .icon-cell:hover .svg:has(+ .original) {
     opacity: 0;
   }
 
-  .png {
+  .original {
     position: absolute;
     inset: 0;
     width: 48px;
     height: 48px;
     opacity: 0;
   }
-  .icon-cell:hover .png {
+  .icon-cell:hover .original {
     opacity: 1;
   }
 

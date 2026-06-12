@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     strictPort: true,
     watch: {
-      usePolling: false,
+      usePolling: true,
       ignored: [
         // Ignore all Blender build/source directories
         "source/**",
