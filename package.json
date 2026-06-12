@@ -5,12 +5,15 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "serve": "node server.js",
+    "deploy": "vite build && git-directory-deploy --branch gh-pages --directory dist",
     "icons": "node scripts/gen-manifest.js && node scripts/copyAll.ts && node scripts/convertAll.ts && node scripts/optimizeSvg.ts"
   },
   "type": "module",
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "@types/node": "^25.9.3",
+    "git-directory-deploy": "^1.5.1",
+    "jimp": "^1.6.1",
     "prettier": "^3.8.4",
     "prettier-plugin-svelte": "^4.1.0",
     "svelte": "^5.56.3",
@@ -18,9 +21,5 @@
     "svgo": "^4.0.1",
     "typescript": "^6.0.3",
     "vite": "^8.0.16"
-  },
-  "dependencies": {
-    "@types/node": "^25.9.3",
-    "jimp": "^1.6.1"
   }
 }
