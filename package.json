@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
+    "lint": "svelte-check && prettier --check .",
+    "format": "prettier --write .",
     "deploy": "vite build && git-directory-deploy --branch gh-pages --directory dist",
     "icons": "node scripts/gen-manifest.js && node scripts/copyAll.ts && node scripts/convertAll.ts && node scripts/optimizeSvg.ts"
   },
