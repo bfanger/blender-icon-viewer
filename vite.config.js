@@ -8,21 +8,6 @@ export default defineConfig({
     strictPort: true,
     watch: {
       usePolling: true,
-      ignored: [
-        // Ignore all Blender build/source directories
-        "source/**",
-        "intern/**",
-        "extern/**",
-        "build_files/**",
-        "tests/**",
-        "tools/**",
-        "release/**",
-        "scripts/**",
-        "doc/**",
-        "locale/**",
-        "lib/**",
-        "plugins/**",
-      ],
     },
   },
 });

@@ -3,6 +3,7 @@
   import Header from "./components/Header.svelte";
   import CategoryBar from "./components/CategoryBar.svelte";
   import IconGrid from "./components/IconGrid.svelte";
+  import SvgJsonToggle from "./components/SvgJsonToggle.svelte";
 
   type Icon = {
     name: string;
@@ -57,14 +58,16 @@
   totalCount={typedManifest.totalCount}
   onSearchInput={handleSearchInput}
 />
-
-<CategoryBar
-  categories={allCategories}
-  {activeCategory}
-  onCategorySelect={(cat: string | null) => {
-    activeCategory = cat;
-  }}
-/>
+<div class="filters">
+  <CategoryBar
+    categories={allCategories}
+    {activeCategory}
+    onCategorySelect={(cat: string | null) => {
+      activeCategory = cat;
+    }}
+  />
+  <SvgJsonToggle />
+</div>
 
 <IconGrid icons={filteredIcons} />
 
@@ -92,5 +95,8 @@
     background: var(--border);
     color: var(--text);
     min-height: 100vh;
+  }
+  .filters {
+    display: flex;
   }
 </style>

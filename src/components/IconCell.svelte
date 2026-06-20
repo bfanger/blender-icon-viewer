@@ -1,5 +1,6 @@
 <script lang="ts">
   import { fade } from "svelte/transition";
+  import copyMode from "../services/copyMode.svelte";
 
   type Icon = {
     name: string;
@@ -10,7 +11,6 @@
   type Props = { icon: Icon };
 
   let { icon }: Props = $props();
-  let hover = $state(false);
   let copied = $state(false);
   let timeout: ReturnType<typeof setTimeout>;
 
@@ -19,8 +19,19 @@
     if (!res.ok) {
       throw new Error("HTTP " + res.status);
     }
-    const text = await res.text();
-    await navigator.clipboard.writeText(text);
+    const svg = await res.text();
+    const json =
+      "," +
+      JSON.stringify(icon.name.toLowerCase().replace(/^icon_/, "")) +
+      ": " +
+      JSON.stringify(svg.replace(/\n[ ]*/g, ""));
+    const text = copyMode.value === "json" ? json : svg;
+    try {
+      await navigator.clipboard.writeText(text);
+    } catch (err) {
+      console.warn("Failed to copy: ", err);
+      (window as any).copy(text);
+    }
     copied = true;
     clearTimeout(timeout);
     timeout = setTimeout(() => {
@@ -29,17 +40,7 @@
   }
 </script>
 
-<button
-  class="icon-cell"
-  data-name={icon.name}
-  onclick={handleClick}
-  onmouseenter={() => {
-    hover = true;
-  }}
-  onmouseleave={() => {
-    hover = false;
-  }}
->
+<button class="icon-cell" data-name={icon.name} onclick={handleClick}>
   <div class="image">
     <img
       class="svg"
@@ -136,11 +137,12 @@
   .icon-cell .copied-toast {
     position: absolute;
     inset: 0;
-    font-size: 13px;
+    font-size: 12px;
     background: var(--bg);
     color: var(--accent-dim);
     pointer-events: none;
-    padding-top: 40px;
-    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-items: center;
   }
 </style>

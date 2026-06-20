@@ -95,7 +95,7 @@ for (const icon of vcoIcons.sort((a, b) => a.name.localeCompare(b.name))) {
 
 fs.writeFileSync(
   path.join(root, "icon-viewer/icon-manifest.json"),
-  JSON.stringify(manifest, null, 2),
+  JSON.stringify(manifest, null, 2) + "\n",
 );
 console.log(
   `Generated manifest with ${manifest.icons.length} icons in ${manifest.categories.length} categories`,

@@ -26,7 +26,7 @@ async function main() {
     const { data } = await optimize(original, config);
     fs.writeFileSync(path.join(outputDir, file), data, "utf-8");
   }
-  console.log(`Wrote ${files.length} SVGs`);
+  console.log(`Wrote ${files.length} optimized SVGs`);
 }
 
 main().catch((err) => {

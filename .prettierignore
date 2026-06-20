@@ -1,2 +1,5 @@
 /dist
 /pnpm-lock.yaml
+/.pnpm-store
+/public/icons/*
+/public/svgo/*
