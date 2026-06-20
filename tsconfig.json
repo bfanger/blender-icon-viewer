@@ -9,5 +9,5 @@
     "allowJs": true,
     "noEmit": true
   },
-  "include": ["src/**/*.ts", "src/**/*.svelte", "scripts/convertAll.ts"]
+  "include": ["src/**/*.ts", "src/**/*.svelte", "scripts/*.ts"]
 }

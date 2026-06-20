@@ -14,9 +14,6 @@ importers:
       '@types/node':
         specifier: ^25.9.3
         version: 25.9.3
-      git-directory-deploy:
-        specifier: ^1.5.1
-        version: 1.5.1
       jimp:
         specifier: ^1.6.1
         version: 1.6.1
@@ -458,10 +455,6 @@ packages:
   gifwrap@0.10.1:
     resolution: {integrity: sha512-2760b1vpJHNmLzZ/ubTtNnEx5WApN/PYWJvXvgS+tL1egTTthayFYIQQNi136FLEDcN/IyEY2EcGpIITD6eYUw==}
 
-  git-directory-deploy@1.5.1:
-    resolution: {integrity: sha512-EKPNaAZBvSE0ZH/jy9awJAzuCOHqEKLj+ESa/rKxnGCiW+tbraWdd0admPAkFps7Aq87VKG5fWP4ldk4ATqXlg==}
-    hasBin: true
-
   ieee754@1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
 
@@ -555,9 +548,6 @@ packages:
   locate-character@3.0.0:
     resolution: {integrity: sha512-SW13ws7BjaeJ6p7Q6CO2nchbYEc3X3J6WrmTTDto7yMPqVSZTUyY5Tjbid+Ab8gLnATtygYtiDIJGQRRn2ZOiA==}
 
-  lodash@4.18.1:
-    resolution: {integrity: sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==}
-
   magic-string@0.30.21:
     resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
 
@@ -571,9 +561,6 @@ packages:
     resolution: {integrity: sha512-jSCU7/VB1loIWBZe14aEYHU/+1UMEHoaO7qxCOVJOw9GgH72VAWppxNcjU+x9a2k3GSIBXNKxXQFqRvvZ7vr3A==}
     engines: {node: '>=10.0.0'}
     hasBin: true
-
-  minimist@1.2.8:
-    resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
 
   mri@1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
@@ -1253,11 +1240,6 @@ snapshots:
       image-q: 4.0.0
       omggif: 1.0.10
 
-  git-directory-deploy@1.5.1:
-    dependencies:
-      lodash: 4.18.1
-      minimist: 1.2.8
-
   ieee754@1.2.1: {}
 
   image-q@4.0.0:
@@ -1353,8 +1335,6 @@ snapshots:
 
   locate-character@3.0.0: {}
 
-  lodash@4.18.1: {}
-
   magic-string@0.30.21:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
@@ -1364,8 +1344,6 @@ snapshots:
   mdn-data@2.27.1: {}
 
   mime@3.0.0: {}
-
-  minimist@1.2.8: {}
 
   mri@1.2.0: {}
 
