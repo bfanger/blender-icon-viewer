@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="255" height="255" viewBox="0 0 255 255">
+    <path d="M161 93V80h13v13z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M161 106V93h13v13z" opacity=".502"/>
+    <path d="M81 93V80h13v13z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M94 93V80h13v13z" opacity=".502"/>
+    <path d="M107 93V80h14v13z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M121 93V80h13v13z" opacity=".502"/>
+    <path d="M134 93V80h14v13zM161 120v-14h13v14z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M81 106V93h13v13z" opacity=".502"/>
+    <path d="M94 106V93h13v13z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M107 106V93h14v13z" opacity=".502"/>
+    <path d="M121 106V93h13v13z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M134 106V93h14v13zM161 133v-13h13v13z" opacity=".502"/>
+    <path d="M81 120v-14h13v14z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M94 120v-14h13v14z" opacity=".502"/>
+    <path d="M107 120v-14h14v14z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M121 120v-14h13v14z" opacity=".502"/>
+    <path d="M134 120v-14h14v14z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M161 93h-13V80h13z" opacity=".502"/>
+    <path d="M161 147v-14h13v14z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M81 133v-13h13v13z" opacity=".502"/>
+    <path d="M94 133v-13h13v13z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M107 133v-13h14v13z" opacity=".502"/>
+    <path d="M121 133v-13h13v13z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M134 133v-13h14v13z" opacity=".502"/>
+    <path d="M161 106h-13V93h13z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M161 160v-13h13v13z" opacity=".502"/>
+    <path d="M81 147v-14h13v14z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M94 147v-14h13v14z" opacity=".502"/>
+    <path d="M107 147v-14h14v14z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M121 147v-14h13v14z" opacity=".502"/>
+    <path d="M134 147v-14h14v14z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M161 120h-13v-14h13z" opacity=".502"/>
+    <path d="M161 173v-13h13v13z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M81 160v-13h13v13z" opacity=".502"/>
+    <path d="M94 160v-13h13v13z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M107 160v-13h14v13z" opacity=".502"/>
+    <path d="M121 160v-13h13v13z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M134 160v-13h14v13z" opacity=".502"/>
+    <path d="M161 133h-13v-13h13zM81 173v-13h13v13z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M94 173v-13h13v13z" opacity=".502"/>
+    <path d="M107 173v-13h14v13z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M121 173v-13h13v13z" opacity=".502"/>
+    <path d="M134 173v-13h14v13z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M161 147h-13v-14h13z" opacity=".502"/>
+    <path d="M161 160h-13v-13h13z" opacity=".502"/>
+    <path fill="#e5e5e5" d="M161 173h-13v-13h13z" opacity=".502"/>
+    <path fill="#d9aff5" d="M196 131h9v16l29-20-29-21v16h-9zM123 195v9h-16l20 29 21-29h-16v-9zM59 122h-9v-16l-29 21 29 20v-16h9zM132 58v-9h16l-20-29-21 29h16v9z"/>
+</svg>

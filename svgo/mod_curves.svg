@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600">
+    <g fill="#fff">
+        <path d="M447.5 599a.5.5 0 0 0-.5.5v13.004c0 .276.224.489.5.5h13q.035 0 .066-.003c.32-.03.466-.307.438-.561V599.5a.5.5 0 0 0-.5-.5zm.5 1h12.004v12.004H448z" style="opacity:.5" transform="matrix(100 0 0 100 -44600.356 -59800.356)"/>
+        <path d="M450.004 610.004s2.991 1.008 6-2c3-3 2-6 2-6" style="display:inline;fill:none;fill-opacity:.6;stroke:#fff;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" transform="matrix(100 0 0 100 -44600.356 -59800.356)"/>
+        <path d="M454.301 605.035a.5.5 0 0 0-.348.158l-.686.736a.5.5 0 0 0 .731.682l.686-.736a.5.5 0 0 0-.383-.84m2.05-2.19a.5.5 0 0 0-.347.159l-.686.735a.5.5 0 0 0 .73.682l.687-.735a.5.5 0 0 0-.383-.841m-4.095 4.384a.5.5 0 0 0-.349.159l-.685.736a.5.5 0 0 0 .73.682l.687-.736a.5.5 0 0 0-.383-.84" style="baseline-shift:baseline;display:inline;overflow:visible;opacity:.6;vector-effect:none;fill:#fff;fill-opacity:1;stroke:none;stroke-width:.01;stroke-linecap:round;stroke-linejoin:round;stop-color:#000" transform="matrix(100 0 0 100 -44600.356 -59800.356)"/>
+    </g>
+</svg>
