@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" fill="none" viewBox="0 0 1200 1200">
+    <g style="stroke-width:.5">
+        <path d="M6.674 4.643v1.668H7.3V4.643z" style="color:#000;fill:#fff;stroke-linecap:round;-inkscape-stroke:none" transform="matrix(255.96902 0 0 263.8172 -1188.425 -1224.935)"/>
+    </g>
+    <path d="m.002 520.004 520-.005L520 .002 440 .01V440H.005z" style="fill:#000;fill-opacity:.65;stroke-width:57.1849"/>
+    <g style="stroke-width:.5">
+        <path d="M6.674 4.643v1.668H7.3V4.643z" style="color:#000;fill:#fff;stroke-linecap:round;-inkscape-stroke:none" transform="matrix(0 255.96902 -263.8172 0 2424.936 -1188.422)"/>
+    </g>
+    <path d="m679.997.005.005 520 519.997-.002-.01-79.999H760V.008z" style="fill:#000;fill-opacity:.65;stroke-width:57.1849"/>
+    <g style="stroke-width:.5">
+        <path d="M6.674 4.643v1.668H7.3V4.643z" style="color:#000;fill:#fff;stroke-linecap:round;-inkscape-stroke:none" transform="matrix(0 -255.96902 263.8172 0 -1224.933 2388.429)"/>
+    </g>
+    <path d="m520.006 1200.002-.005-520-519.997.002.008 79.998h439.989V1200z" style="fill:#000;fill-opacity:.65;stroke-width:57.1849"/>
+    <g style="stroke-width:.5">
+        <path d="M6.674 4.643v1.668H7.3V4.643z" style="color:#000;fill:#fff;stroke-linecap:round;-inkscape-stroke:none" transform="matrix(-255.96902 0 0 -263.8172 2388.429 2424.93)"/>
+    </g>
+    <path d="m1200.002 679.99-520 .01.002 519.997 79.998-.01.001-439.988 439.996-.001z" style="fill:#000;fill-opacity:.65;stroke-width:57.1849"/>
+</svg>

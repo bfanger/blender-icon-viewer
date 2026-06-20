@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600">
+    <path fill="#fff" d="M100 100v200h200V100zm200 400v200h200V500zm200 300v200h200V800zm300 300v200h150v100h250v100h300v-200h-300v-100h-200v-100z" opacity=".99"/>
+</svg>

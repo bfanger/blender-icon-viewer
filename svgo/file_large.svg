@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="1600" viewBox="0 0 1250 1600">
+    <radialGradient id="a" cx="53.777" cy="49.935" r="48.01" gradientTransform="matrix(.50533 .50984 -.41565 .41172 50.12 -5.918)" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#ccc"/>
+        <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+    <path fill="url(#a)" d="m127.667 21.25-50.286.004-41.137 41.128-.004 82.253c.025 3.623.91 4.58 4.58 4.572h86.854c3.658-.003 4.585-1.116 4.585-4.568V25.849c-.017-3.68-1.028-4.6-4.592-4.6" opacity=".8" transform="matrix(10.93759 0 0 10.94105 -296.472 -132.578)"/>
+    <path fill="#fff" d="M549.906 99.83 99.856 550.064l400.198-.099c37.87-.175 49.88-13.138 49.881-49.888z"/>
+</svg>

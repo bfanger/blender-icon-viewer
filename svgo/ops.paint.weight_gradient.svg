@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="255" height="255" viewBox="0 0 255 255">
+    <path fill="#1c1c1c" d="m64 163 47 32-46-46z"/>
+    <path fill="#dbdbdb" d="m140 69 56 42-46-47z"/>
+    <path fill="#5c5c5c" d="m83 125 59 45-51-52z"/>
+    <path fill="#9b9b9b" d="m112 97 58 44-51-51z"/>
+    <path fill="#2c2c2c" d="m65 149 56 42-52-52z"/>
+    <path fill="#3c3c3c" d="m76 132 45 59 7-7z"/>
+    <path fill="#ebebeb" d="m150 64 46 33-32-33z"/>
+    <path fill="#fafafa" d="m182 68 14 29-4-19z"/>
+    <path fill="#6c6c6c" d="m91 118 58 45-51-52z"/>
+    <path fill="#7b7b7b" d="m105 104 44 59 7-8z"/>
+    <path fill="#ababab" d="m119 90 58 44-51-51z"/>
+    <path fill="#bbb" d="m133 76 44 58 7-7z"/>
+    <path fill="#8b8b8b" d="m112 97 44 58 7-7z"/>
+    <path fill="#4c4c4c" d="m83 125 45 59 7-7z"/>
+    <path fill="#c5c5c5" d="m192 120-59-44 51 51z"/>
+    <path fill="#060606" d="m98 196-30-15 11 11z"/>
+    <path fill="#161616" d="m64 163 34 33 13-1z"/>
+    <path fill="#d5d5d5" d="m140 69 52 51 4-9z"/>
+    <path fill="#565656" d="m83 125 52 52 7-7z"/>
+    <path fill="#959595" d="m112 97 51 51 7-7z"/>
+    <path fill="#262626" d="m65 149 46 46 10-4z"/>
+    <path fill="#363636" d="m76 132-7 7 52 52z"/>
+    <path fill="#e5e5e5" d="m150 64 46 47V97z"/>
+    <path fill="#f5f5f5" d="m182 68-18-4 32 33z"/>
+    <path fill="#666" d="m91 118 51 52 7-7z"/>
+    <path fill="#767676" d="m105 104-7 7 51 52z"/>
+    <path fill="#a5a5a5" d="m119 90 51 51 7-7z"/>
+    <path fill="#b5b5b5" d="m133 76-7 7 51 51z"/>
+    <path fill="#858585" d="m112 97-7 7 51 51z"/>
+    <path fill="#464646" d="m83 125-7 7 52 52z"/>
+    <path fill="#cbcbcb" d="m192 120-52-51-7 7z"/>
+    <path fill="#0c0c0c" d="m98 196-34-33 4 18z"/>
+    <path fill="#e5e5e5" d="m71 188-3-2L188 66l2 3 2 2L73 190zM62 197l3 8 3-2 2-3v-6l-2-3-3-2-3-1-4 1-2 2-2 3-1 3 1 3 2 3 2 2 4 1z"/>
+    <path fill="#e5e5e5" d="m62 206 3-1-3-8zM200 59l3 8 3-2 2-3v-6l-2-3-3-2-3-1-4 1-2 2-2 3-1 3 1 3 2 3 2 2 4 1z"/>
+    <path fill="#e5e5e5" d="m200 68 3-1-3-8z"/>
+</svg>
