@@ -13,7 +13,7 @@ import { convertToSvg } from "./convertSvg.js";
 
 const blenderDir = path.resolve(
   path.dirname(fileURLToPath(import.meta.url)),
-  "../../",
+  "../../blender/",
 );
 const inputDir = path.join(blenderDir, "release/datafiles/icons");
 const outputDir = path.join(blenderDir, "icon-viewer/public/icons");

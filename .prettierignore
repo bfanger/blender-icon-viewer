@@ -3,3 +3,4 @@
 /.pnpm-store
 /public/icons/*
 /public/svgo/*
+/.svelte-check

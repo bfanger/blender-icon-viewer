@@ -8,7 +8,7 @@ import { fileURLToPath } from "url";
  */
 const blenderDir = path.resolve(
   path.dirname(fileURLToPath(import.meta.url)),
-  "../../",
+  "../../blender/",
 );
 const baseDir = path.resolve(blenderDir, "release/datafiles");
 const iconsDir = path.join(baseDir, "icons_svg");

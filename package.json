@@ -6,22 +6,23 @@
     "dev": "vite --host",
     "build": "vite build",
     "postbuild": "node scripts/postbuild.ts",
-    "lint": "svelte-check && prettier --check .",
+    "lint": "svelte-check --tsgo && prettier --check .",
     "format": "prettier --write .",
     "deploy": "vite build && node scripts/postbuild.ts && node scripts/deploy.ts",
     "icons": "node scripts/gen-manifest.js && node scripts/copyAll.ts && node scripts/convertAll.ts && node scripts/optimizeSvg.ts"
   },
   "type": "module",
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^7.1.2",
-    "@types/node": "^25.9.3",
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
+    "@types/node": "^26.1.2",
+    "@typescript/native": "npm:typescript@^7.0.2",
     "jimp": "^1.6.1",
-    "prettier": "^3.8.4",
-    "prettier-plugin-svelte": "^4.1.0",
-    "svelte": "^5.56.3",
-    "svelte-check": "^4.6.0",
-    "svgo": "^4.0.1",
+    "prettier": "^3.9.6",
+    "prettier-plugin-svelte": "^4.1.1",
+    "svelte": "^5.56.8",
+    "svelte-check": "^4.7.4",
+    "svgo": "^4.0.2",
     "typescript": "^6.0.3",
-    "vite": "^8.0.16"
+    "vite": "^8.2.0"
   }
 }
