@@ -7,7 +7,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
-const root = path.resolve(fileURLToPath(import.meta.url),"../../../blender/");
+const root = path.resolve(fileURLToPath(import.meta.url), "../../../blender/");
 
 const iconsDir = path.join(root, "release/datafiles/icons_svg");
 const cursorsDir = path.join(root, "release/datafiles/cursors");
